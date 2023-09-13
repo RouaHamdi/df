@@ -19,7 +19,7 @@ function App() {
     const [date, setDate ] = useState(newDate());
     useEffect(()=>{
       setDate(new Date());
-    },
+    },[]);
     {
       title: "Movie 3",
       description: "Description for Movie 2",
