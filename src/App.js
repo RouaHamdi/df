@@ -8,13 +8,19 @@ function App() {
       title: "Movie 1",
       description: "Description for Movie 1",
       posterURL: "URL_TO_POSTER_1",
-      rating: 4.5,
+      rating: 4,
     },
     {
       title: "Movie 2",
       description: "Description for Movie 2",
       posterURL: "URL_TO_POSTER_2",
       rating: 3.8,
+    },
+    {
+      title: "Movie 3",
+      description: "Description for Movie 2",
+      posterURL: "URL_TO_POSTER_2",
+      rating: 4.9,
     },
     // Add more movies here
   ]);
