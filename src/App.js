@@ -16,6 +16,10 @@ function App() {
       posterURL: "URL_TO_POSTER_2",
       rating: 3.8,
     },
+    const [date, setDate ] = useState(newDate());
+    useEffect(()=>{
+      setDate(new Date());
+    },
     {
       title: "Movie 3",
       description: "Description for Movie 2",
