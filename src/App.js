@@ -39,8 +39,7 @@ function App() {
   });
 
   const handleAddMovie = () => {
-    // You can implement a modal or form to add a new movie and update the movies state here.
-    // For simplicity, we won't implement it in this example.
+
   };
 
   return (
