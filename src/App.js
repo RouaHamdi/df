@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import MovieList from "./MovieList";
-import Filter from "./Filter";
+import Filter from "./filter";
 
 function App() {
   const [movies, setMovies] = useState([
